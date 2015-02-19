@@ -1,0 +1,15 @@
+{
+    "name": "emak/joomla",
+    "description": "Spreeboote Joomla",
+    "license": "propetary",
+    "authors": [
+        {
+            "name": "Sven Friedemann",
+            "email": "sven@erstellbar.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "j7mbo/twitter-api-php": "dev-master"
+    }
+}

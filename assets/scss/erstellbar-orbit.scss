@@ -1,0 +1,17 @@
+@import "settings";
+@import "foundation/components/orbit";
+
+.mod_erstellbar_twitter {
+  background: url('../img/twitter-feed_icon.png') no-repeat #f9f9f9 center 40px;
+  text-align: center;
+  padding: 100px 40px 0 40px;
+  margin: 40px 0 40px 0;
+
+  .name {
+    margin: 20px 0 10px 0;
+  }
+
+  .orbit-bullets li {
+    margin-right: 15px;
+  }
+}

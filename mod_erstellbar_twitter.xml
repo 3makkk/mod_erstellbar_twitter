@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" client="site" version="2.5" method="upgrade">
+    <name>Erstellbar Twitter Module</name>
+    <author>erstellbar.de</author>
+    <creationDate>02/2015</creationDate>
+    <copyright>Copyright (C) 2011-2015 Sven Friedemann. All Rights Reserved.</copyright>
+    <license>Private</license>
+    <authorEmail>sven@erstellbar.de</authorEmail>
+    <version>0.1</version>
+    <description>Erstellbar Twitter Module based on Foundation Orbit Slider</description>
+
+    <files>
+        <filename module="mod_erstellbar_twitter">mod_erstellbar_twitter.php</filename>
+        <filename>helper.php</filename>
+        <filename>index.html</filename>
+        <filename>mod_erstellbar_twitter.php</filename>
+        <filename>mod_erstellbar_twitter.xml</filename>
+        <folder>assets</folder>
+        <folder>templ</folder>
+        <folder>vendor</folder>
+        <folder>language</folder>
+    </files>
+
+    <config>
+        <fields name="params">
+
+            <fieldset name="basic">
+                <field name="erstellbar_twitter_oauth_access_token" type="text" label="MOD_ERSTELLBAR_OAUTH_ACCESS_TOKEN" />
+            </fieldset>
+            <fieldset name="basic">
+                <field name="erstellbar_twitter_oauth_access_token_secret" type="text" label="MOD_ERSTELLBAR_OAUTH_ACCESS_TOKEN_SECRET" />
+            </fieldset>
+            <fieldset name="basic">
+                <field name="erstellbar_twitter_consumer_key" type="text" label="MOD_ERSTELLBAR_CONSUMER_KEY" />
+            </fieldset>
+            <fieldset name="basic">
+                <field name="erstellbar_consumer_secret" type="text" label="MOD_ERSTELLBAR_CONSUMER_SECRET" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
