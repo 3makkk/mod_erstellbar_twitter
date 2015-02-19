@@ -4,7 +4,7 @@
     <author>erstellbar.de</author>
     <creationDate>02/2015</creationDate>
     <copyright>Copyright (C) 2011-2015 Sven Friedemann. All Rights Reserved.</copyright>
-    <license>Private</license>
+    <license>MIT</license>
     <authorEmail>sven@erstellbar.de</authorEmail>
     <version>0.1</version>
     <description>Erstellbar Twitter Module based on Foundation Orbit Slider</description>
